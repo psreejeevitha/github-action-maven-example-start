@@ -20,3 +20,9 @@ jobs:
 
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v4
+      with:
+         name: copy_main_folder
+         path: |
+           main
