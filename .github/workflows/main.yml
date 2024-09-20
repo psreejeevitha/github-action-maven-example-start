@@ -25,4 +25,4 @@ jobs:
       with:
          name: copy_main_folder
          path: |
-           main
+           */main
